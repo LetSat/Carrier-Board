@@ -1,5 +1,5 @@
- .directory
- *.swp
- *.bak
- *.bck
- *.kicad_pcb-bak
+.directory
+*.swp
+*.bak
+*.bck
+*.kicad_pcb-bak
