@@ -1,4 +1,4 @@
-update=Wed 13 Dec 2017 08:28:00 PM EST
+update=1/26/2018 3:34:26 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=Carrier-Board
+LibName34=SI-51009-F

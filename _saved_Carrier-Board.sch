@@ -1,0 +1,209 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Carrier-Board
+LIBS:SI-51009-F
+LIBS:Carrier-Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PC104_PLUS X1
+U 1 1 5A31DAD4
+P 3450 3050
+F 0 "X1" H 2950 4690 45  0000 L BNN
+F 1 "PC104_PLUS" H 2950 1250 45  0000 L BNN
+F 2 "Carrier-Board:con-pc104-PC104-PLUS" H 3480 3200 20  0001 C CNN
+F 3 "" H 3450 3050 60  0001 C CNN
+	1    3450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PC104_PLUS X1
+U 2 1 5A31DB5C
+P 5700 3050
+F 0 "X1" H 5200 4690 45  0000 L BNN
+F 1 "PC104_PLUS" H 5200 1250 45  0000 L BNN
+F 2 "Carrier-Board:con-pc104-PC104-PLUS" H 5730 3200 20  0001 C CNN
+F 3 "" H 5700 3050 60  0001 C CNN
+	2    5700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PC104_PLUS X1
+U 3 1 5A31DBBB
+P 7300 3100
+F 0 "X1" H 6800 4740 45  0000 L BNN
+F 1 "PC104_PLUS" H 6800 1300 45  0000 L BNN
+F 2 "Carrier-Board:con-pc104-PC104-PLUS" H 7330 3250 20  0001 C CNN
+F 3 "" H 7300 3100 60  0001 C CNN
+	3    7300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PC104_PLUS X1
+U 4 1 5A31DC09
+P 8450 3050
+F 0 "X1" H 7950 4690 45  0000 L BNN
+F 1 "PC104_PLUS" H 7950 1250 45  0000 L BNN
+F 2 "Carrier-Board:con-pc104-PC104-PLUS" H 8480 3200 20  0001 C CNN
+F 3 "" H 8450 3050 60  0001 C CNN
+	4    8450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PC104_PLUS X1
+U 5 1 5A31DC65
+P 9900 3200
+F 0 "X1" H 9400 4840 45  0000 L BNN
+F 1 "PC104_PLUS" H 9400 1400 45  0000 L BNN
+F 2 "Carrier-Board:con-pc104-PC104-PLUS" H 9930 3350 20  0001 C CNN
+F 3 "" H 9900 3200 60  0001 C CNN
+	5    9900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PC104_PLUS X1
+U 6 1 5A31DCC7
+P 10950 3200
+F 0 "X1" H 10450 4840 45  0000 L BNN
+F 1 "PC104_PLUS" H 10450 1400 45  0000 L BNN
+F 2 "Carrier-Board:con-pc104-PC104-PLUS" H 10980 3350 20  0001 C CNN
+F 3 "" H 10950 3200 60  0001 C CNN
+	6    10950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 1 1 5A6B9EA9
+P 2250 9200
+F 0 "J1" H 2600 9450 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 2650 7000 60  0000 C CNN
+F 2 "Carrier-Board:ComExpressMini10" H 2650 6940 60  0001 C CNN
+F 3 "" H 2250 9200 60  0000 C CNN
+	1    2250 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 2 1 5A6B9F01
+P 3350 9300
+F 0 "J1" H 3700 9550 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 3750 7100 60  0000 C CNN
+F 2 "Carrier-Board:ComExpressMini10" H 3750 7040 60  0001 C CNN
+F 3 "" H 3350 9300 60  0000 C CNN
+	2    3350 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 3 1 5A6B9F3A
+P 4300 9150
+F 0 "J1" H 4650 9400 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 4700 6950 60  0000 C CNN
+F 2 "Carrier-Board:ComExpressMini10" H 4700 6890 60  0001 C CNN
+F 3 "" H 4300 9150 60  0000 C CNN
+	3    4300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 4 1 5A6B9F81
+P 5050 9300
+F 0 "J1" H 5400 9550 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 5450 7100 60  0000 C CNN
+F 2 "Carrier-Board:ComExpressMini10" H 5450 7040 60  0001 C CNN
+F 3 "" H 5050 9300 60  0000 C CNN
+	4    5050 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 5 1 5A6B9FBA
+P 6050 9250
+F 0 "J1" H 6400 9500 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 6450 7050 60  0000 C CNN
+F 2 "Carrier-Board:ComExpressMini10" H 6450 6990 60  0001 C CNN
+F 3 "" H 6050 9250 60  0000 C CNN
+	5    6050 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LOGO #G1
+U 1 1 5A6B9FFD
+P 13850 8950
+F 0 "#G1" H 13850 8871 60  0001 C CNN
+F 1 "LOGO" H 13850 9029 60  0001 C CNN
+F 2 "" H 13850 8950 60  0001 C CNN
+F 3 "" H 13850 8950 60  0001 C CNN
+	1    13850 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSATA-Socket U1
+U 1 1 5A6BA027
+P 9150 11200
+F 0 "U1" H 8750 12500 60  0000 C CNN
+F 1 "MSATA-Socket" H 9250 9650 60  0000 C CNN
+F 2 "Carrier-Board:msata-socket" H 9250 10200 60  0000 C CNN
+F 3 "" H 9250 10200 60  0000 C CNN
+	1    9150 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SI-51009-F J2
+U 1 1 5A6BA09A
+P 4300 5350
+F 0 "J2" H 4700 5500 50  0000 C CNN
+F 1 "SI-51009-F" H 4700 4800 50  0000 C CNN
+F 2 "Carrier-Board:SI-51009-F" H 4700 4700 50  0001 C CNN
+F 3 "http://belfuse.com/pdfs/SI-51009-F.pdf" H 4700 4600 50  0001 C CNN
+F 4 "Modular Connectors / Ethernet Connectors RJ45 Connector, 8 Position, 1 port" H 4700 4500 50  0001 C CNN "Description"
+F 5 "RS" H 4700 4400 50  0001 C CNN "Supplier_Name"
+F 6 "Bel-Stewart" H 4700 4200 50  0001 C CNN "Manufacturer_Name"
+F 7 "SI-51009-F" H 4700 4100 50  0001 C CNN "Manufacturer_Part_Number"
+	1    4300 5350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
