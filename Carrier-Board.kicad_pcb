@@ -3,7 +3,7 @@
   (general
     (links 116)
     (no_connects 116)
-    (area 0 0 0 0)
+    (area 41.471239 29.878679 157.492041 139.003381)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -439,7 +439,7 @@
   )
 
   (module Carrier-Board:msata-socket (layer B.Cu) (tedit 5A0941EC) (tstamp 5A6BB438)
-    (at 129.1 59.3 270)
+    (at 129.075 59.35 270)
     (tags "mpci, pci, pci express")
     (path /5A6BA027)
     (fp_text reference U1 (at 30.45 -2.45 540) (layer B.SilkS) hide
