@@ -2,7 +2,7 @@
   (fp_text reference J1 (at 34.725998 2.65) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value CONN_3-6318491-6 (at 34.725998 2.65) (layer F.SilkS) hide
+  (fp_text value CONN_3-6318491-6 (at 9.600996 -0.1) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user "Copyright 2016 Accelerated Designs. All rights reserved." (at 61.976 0) (layer Cmts.User)
@@ -242,4 +242,9 @@
   (pad 222 thru_hole circle (at 5.871598 2.65) (size 1.7526 1.7526) (drill 1.7526) (layers *.Cu F.SilkS))
   (pad TAB1 smd rect (at 3.81 2.667) (size 3 6) (layers F.Cu F.Paste F.Mask))
   (pad TAB2 smd rect (at 65.659 2.667) (size 3 6) (layers F.Cu F.Paste F.Mask))
+  (model Connectors_Samtec.3dshapes/mcom5mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
