@@ -1,4 +1,4 @@
-update=Fri 26 Jan 2018 05:44:57 PM EST
+update=Sat 27 Jan 2018 03:04:10 AM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,5 @@ LibName32=contrib
 LibName33=valves
 LibName34=Carrier-Board
 LibName35=SI-51009-F
+LibName36=/home/chandler/Homeschool/Semester8/CubeSat/BusSimulator/MCP6H04-E
+LibName37=/home/chandler/Homeschool/Semester8/CubeSat/BusSimulator/BusSimulator

@@ -50,6 +50,1560 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
+L MPM3620 U1
+U 1 1 59F6A40E
+P -36150 -5350
+F 0 "U1" H -36150 -5350 60  0000 C CNN
+F 1 "MPM3620" H -36150 -5200 60  0000 C CNN
+F 2 "BusSimulator:QFN-20" H -36150 -5350 60  0001 C CNN
+F 3 "" H -36150 -5350 60  0001 C CNN
+	1    -36150 -5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR01
+U 1 1 59F6A60F
+P -36325 -6625
+F 0 "#PWR01" H -36325 -6875 50  0001 C CNN
+F 1 "GNDREF" H -36325 -6775 50  0000 C CNN
+F 2 "" H -36325 -6625 50  0001 C CNN
+F 3 "" H -36325 -6625 50  0001 C CNN
+	1    -36325 -6625
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 59F6ABD8
+P -35500 -4650
+F 0 "R1" V -35420 -4650 50  0000 C CNN
+F 1 "160k" V -35500 -4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -35570 -4650 50  0001 C CNN
+F 3 "" H -35500 -4650 50  0001 C CNN
+	1    -35500 -4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 59F6ACFA
+P -35500 -4350
+F 0 "R2" V -35420 -4350 50  0000 C CNN
+F 1 "30.1k" V -35500 -4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -35570 -4350 50  0001 C CNN
+F 3 "" H -35500 -4350 50  0001 C CNN
+	1    -35500 -4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR02
+U 1 1 59F6AEAC
+P -35500 -4200
+F 0 "#PWR02" H -35500 -4450 50  0001 C CNN
+F 1 "GNDA" H -35500 -4350 50  0000 C CNN
+F 2 "" H -35500 -4200 50  0001 C CNN
+F 3 "" H -35500 -4200 50  0001 C CNN
+	1    -35500 -4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 59F6AF4C
+P -36000 -6700
+F 0 "R3" V -35920 -6700 50  0000 C CNN
+F 1 "100k" V -36000 -6700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -36070 -6700 50  0001 C CNN
+F 3 "" H -36000 -6700 50  0001 C CNN
+	1    -36000 -6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GNDA #PWR03
+U 1 1 59F6AF94
+P -36850 -4950
+F 0 "#PWR03" H -36850 -5200 50  0001 C CNN
+F 1 "GNDA" H -36850 -5100 50  0000 C CNN
+F 2 "" H -36850 -4950 50  0001 C CNN
+F 3 "" H -36850 -4950 50  0001 C CNN
+	1    -36850 -4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 59FA907E
+P -35575 -6250
+F 0 "R4" V -35495 -6250 50  0000 C CNN
+F 1 "63.4k" V -35575 -6250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -35645 -6250 50  0001 C CNN
+F 3 "" H -35575 -6250 50  0001 C CNN
+	1    -35575 -6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GNDA #PWR04
+U 1 1 59FA90DC
+P -35350 -6200
+F 0 "#PWR04" H -35350 -6450 50  0001 C CNN
+F 1 "GNDA" H -35350 -6350 50  0000 C CNN
+F 2 "" H -35350 -6200 50  0001 C CNN
+F 3 "" H -35350 -6200 50  0001 C CNN
+	1    -35350 -6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C2
+U 1 1 59FA9155
+P -35650 -4650
+F 0 "C2" V -35575 -4425 60  0000 C CNN
+F 1 "22uF" V -35650 -4475 60  0000 C CNN
+F 2 "BusSimulator:C22" H -35500 -5010 60  0001 C CNN
+F 3 "" H -35650 -4650 60  0000 C CNN
+	1    -35650 -4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP C1
+U 1 1 59FA9430
+P -36150 -7000
+F 0 "C1" V -36125 -6925 60  0000 C CNN
+F 1 "10uF" V -36225 -6975 60  0000 C CNN
+F 2 "BusSimulator:C22" H -36000 -7360 60  0001 C CNN
+F 3 "" H -36150 -7000 60  0000 C CNN
+	1    -36150 -7000
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR05
+U 1 1 59FAA2C5
+P -35500 -5400
+F 0 "#PWR05" H -35500 -5550 50  0001 C CNN
+F 1 "+5V" H -35500 -5260 50  0000 C CNN
+F 2 "" H -35500 -5400 50  0001 C CNN
+F 3 "" H -35500 -5400 50  0001 C CNN
+	1    -35500 -5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MPM3620 U2
+U 1 1 59FAACB4
+P -36200 -2350
+F 0 "U2" H -36200 -2350 60  0000 C CNN
+F 1 "MPM3620" H -36200 -2200 60  0000 C CNN
+F 2 "BusSimulator:QFN-20" H -36200 -2350 60  0001 C CNN
+F 3 "" H -36200 -2350 60  0001 C CNN
+	1    -36200 -2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR06
+U 1 1 59FAACBA
+P -36375 -3625
+F 0 "#PWR06" H -36375 -3875 50  0001 C CNN
+F 1 "GNDREF" H -36375 -3775 50  0000 C CNN
+F 2 "" H -36375 -3625 50  0001 C CNN
+F 3 "" H -36375 -3625 50  0001 C CNN
+	1    -36375 -3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 59FAACC0
+P -35550 -1650
+F 0 "R5" V -35470 -1650 50  0000 C CNN
+F 1 "160k" V -35550 -1650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -35620 -1650 50  0001 C CNN
+F 3 "" H -35550 -1650 50  0001 C CNN
+	1    -35550 -1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 59FAACC6
+P -35550 -1350
+F 0 "R6" V -35470 -1350 50  0000 C CNN
+F 1 "51k" V -35550 -1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -35620 -1350 50  0001 C CNN
+F 3 "" H -35550 -1350 50  0001 C CNN
+	1    -35550 -1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR07
+U 1 1 59FAACCC
+P -35550 -1200
+F 0 "#PWR07" H -35550 -1450 50  0001 C CNN
+F 1 "GNDA" H -35550 -1350 50  0000 C CNN
+F 2 "" H -35550 -1200 50  0001 C CNN
+F 3 "" H -35550 -1200 50  0001 C CNN
+	1    -35550 -1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 59FAACD2
+P -36050 -3700
+F 0 "R7" V -35970 -3700 50  0000 C CNN
+F 1 "100k" V -36050 -3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -36120 -3700 50  0001 C CNN
+F 3 "" H -36050 -3700 50  0001 C CNN
+	1    -36050 -3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GNDA #PWR08
+U 1 1 59FAACD8
+P -36900 -1950
+F 0 "#PWR08" H -36900 -2200 50  0001 C CNN
+F 1 "GNDA" H -36900 -2100 50  0000 C CNN
+F 2 "" H -36900 -1950 50  0001 C CNN
+F 3 "" H -36900 -1950 50  0001 C CNN
+	1    -36900 -1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 59FAACF4
+P -35625 -3250
+F 0 "R8" V -35545 -3250 50  0000 C CNN
+F 1 "56k" V -35625 -3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -35695 -3250 50  0001 C CNN
+F 3 "" H -35625 -3250 50  0001 C CNN
+	1    -35625 -3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GNDA #PWR09
+U 1 1 59FAACFB
+P -35400 -3200
+F 0 "#PWR09" H -35400 -3450 50  0001 C CNN
+F 1 "GNDA" H -35400 -3350 50  0000 C CNN
+F 2 "" H -35400 -3200 50  0001 C CNN
+F 3 "" H -35400 -3200 50  0001 C CNN
+	1    -35400 -3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C4
+U 1 1 59FAAD03
+P -35700 -1650
+F 0 "C4" V -35625 -1425 60  0000 C CNN
+F 1 "22uF" V -35700 -1475 60  0000 C CNN
+F 2 "BusSimulator:C22" H -35550 -2010 60  0001 C CNN
+F 3 "" H -35700 -1650 60  0000 C CNN
+	1    -35700 -1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP C3
+U 1 1 59FAAD0F
+P -36200 -4000
+F 0 "C3" V -36175 -3925 60  0000 C CNN
+F 1 "10uF" V -36275 -3975 60  0000 C CNN
+F 2 "BusSimulator:C22" H -36050 -4360 60  0001 C CNN
+F 3 "" H -36200 -4000 60  0000 C CNN
+	1    -36200 -4000
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR010
+U 1 1 59FAAF36
+P -35550 -2400
+F 0 "#PWR010" H -35550 -2550 50  0001 C CNN
+F 1 "+3.3V" H -35550 -2260 50  0000 C CNN
+F 2 "" H -35550 -2400 50  0001 C CNN
+F 3 "" H -35550 -2400 50  0001 C CNN
+	1    -35550 -2400
+	1    0    0    -1  
+$EndComp
+Text Label -36000 -6950 0    60   ~ 0
+PCE3895CT-ND
+Text Label -36550 -4550 0    60   ~ 0
+PCE3900CT-ND
+$Comp
+L GNDREF #PWR011
+U 1 1 59FACA7B
+P -35200 -5650
+F 0 "#PWR011" H -35200 -5900 50  0001 C CNN
+F 1 "GNDREF" H -35200 -5800 50  0000 C CNN
+F 2 "" H -35200 -5650 50  0001 C CNN
+F 3 "" H -35200 -5650 50  0001 C CNN
+	1    -35200 -5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR012
+U 1 1 59FACBAF
+P -35150 -2700
+F 0 "#PWR012" H -35150 -2950 50  0001 C CNN
+F 1 "GNDREF" H -35150 -2850 50  0000 C CNN
+F 2 "" H -35150 -2700 50  0001 C CNN
+F 3 "" H -35150 -2700 50  0001 C CNN
+	1    -35150 -2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR013
+U 1 1 59FACE9C
+P -35650 -4650
+F 0 "#PWR013" H -35650 -4900 50  0001 C CNN
+F 1 "GNDREF" H -35650 -4800 50  0000 C CNN
+F 2 "" H -35650 -4650 50  0001 C CNN
+F 3 "" H -35650 -4650 50  0001 C CNN
+	1    -35650 -4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR014
+U 1 1 59FAD007
+P -36400 -6950
+F 0 "#PWR014" H -36400 -7200 50  0001 C CNN
+F 1 "GNDREF" H -36400 -7100 50  0000 C CNN
+F 2 "" H -36400 -6950 50  0001 C CNN
+F 3 "" H -36400 -6950 50  0001 C CNN
+	1    -36400 -6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR015
+U 1 1 59FB82F0
+P -36400 -4000
+F 0 "#PWR015" H -36400 -4250 50  0001 C CNN
+F 1 "GNDREF" H -36400 -4150 50  0000 C CNN
+F 2 "" H -36400 -4000 50  0001 C CNN
+F 3 "" H -36400 -4000 50  0001 C CNN
+	1    -36400 -4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR016
+U 1 1 59FB843A
+P -35700 -1650
+F 0 "#PWR016" H -35700 -1900 50  0001 C CNN
+F 1 "GNDREF" H -35700 -1800 50  0000 C CNN
+F 2 "" H -35700 -1650 50  0001 C CNN
+F 3 "" H -35700 -1650 50  0001 C CNN
+	1    -35700 -1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 1 1 5A03F4E1
+P -28050 1450
+F 0 "J1" H -27700 1700 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H -27700 2050 60  0000 C CNN
+F 2 "BusSimulator:ComExpressMini10" H -27650 -810 60  0001 C CNN
+F 3 "" H -28050 1450 60  0000 C CNN
+	1    -28050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 2 1 5A03F592
+P -26550 1450
+F 0 "J1" H -26200 1700 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H -26450 2750 60  0000 C CNN
+F 2 "BusSimulator:ComExpressMini10" H -26150 -810 60  0001 C CNN
+F 3 "" H -26550 1450 60  0000 C CNN
+	2    -26550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 3 1 5A03F60D
+P -25050 1450
+F 0 "J1" H -24700 1700 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H -24450 2900 60  0000 C CNN
+F 2 "BusSimulator:ComExpressMini10" H -24650 -810 60  0001 C CNN
+F 3 "" H -25050 1450 60  0000 C CNN
+	3    -25050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 4 1 5A03F69E
+P -23550 1450
+F 0 "J1" H -23200 1700 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H -23250 2450 60  0000 C CNN
+F 2 "BusSimulator:ComExpressMini10" H -23150 -810 60  0001 C CNN
+F 3 "" H -23550 1450 60  0000 C CNN
+	4    -23550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3-6318491-6 J1
+U 5 1 5A03F72F
+P -22050 1450
+F 0 "J1" H -21700 1700 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H -21750 1900 60  0000 C CNN
+F 2 "BusSimulator:ComExpressMini10" H -21650 -810 60  0001 C CNN
+F 3 "" H -22050 1450 60  0000 C CNN
+	5    -22050 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel -28050 1450 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -28050 2450 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -28050 2950 0    51   Input ~ 0
+SATA0_TX+
+Text GLabel -28050 3050 0    51   Input ~ 0
+SATA0_TX-
+Text GLabel -28050 3250 0    51   Input ~ 0
+SATA0_RX+
+Text GLabel -28050 3350 0    51   Input ~ 0
+SATA0_RX-
+Text GLabel -28050 3450 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -28050 4150 0    51   Input ~ 0
+SATA_ACTn
+Text GLabel -28050 4450 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -28050 5450 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -26550 2050 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -26550 2350 0    51   Input ~ 0
+GPI0
+Text GLabel -26550 2650 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -26550 2950 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -26550 3250 0    51   Input ~ 0
+GPI1
+Text GLabel -26550 3550 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -26550 3650 0    51   Input ~ 0
+GPI2
+Text GLabel -26550 3950 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -26550 4950 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -26550 5450 0    51   Input ~ 0
+GPI3
+Text GLabel -25050 1550 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -25050 1850 0    51   Input ~ 0
+GPO0
+Text GLabel -25050 2350 0    51   Input ~ 0
+mCOM_TX
+Text GLabel -25050 2450 0    51   Input ~ 0
+mCOM_RX
+Text GLabel -25050 2550 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -25050 2950 0    51   Input ~ 0
+mCOM_12V
+Text GLabel -25050 3050 0    51   Input ~ 0
+mCOM_12V
+Text GLabel -25050 3150 0    51   Input ~ 0
+mCOM_12V
+Text GLabel -25050 3250 0    51   Input ~ 0
+mCOM_12V
+Text GLabel -25050 3350 0    51   Input ~ 0
+mCOM_12V
+Text GLabel -25050 3450 0    51   Input ~ 0
+mCOM_12V
+Text GLabel -25050 3550 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -25050 3650 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -25050 4650 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -25050 4750 0    51   Input ~ 0
+PWRBTNn
+Text GLabel -25050 5650 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -23550 1550 0    51   Input ~ 0
+PWR_OK
+Text GLabel -23550 2250 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -23550 2450 0    51   Input ~ 0
+I2C_CK
+Text GLabel -23550 2550 0    51   Input ~ 0
+I2C_DAT
+Text GLabel -23550 3250 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -23550 4050 0    51   Input ~ 0
+SYS_RESETn
+Text GLabel -23550 4250 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -23550 4550 0    51   Input ~ 0
+GPO1
+Text GLabel -23550 4850 0    51   Input ~ 0
+GPO2
+Text GLabel -23550 5150 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -23550 5450 0    51   Input ~ 0
+GPO3
+Text GLabel -22050 1450 0    51   Input ~ 0
+WAKE1n
+Text GLabel -22050 1750 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -22050 2750 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -22050 3150 0    51   Input ~ 0
+mCOM_5V_SBY
+Text GLabel -22050 3250 0    51   Input ~ 0
+mCOM_5V_SBY
+Text GLabel -22050 3350 0    51   Input ~ 0
+mCOM_5V_SBY
+Text GLabel -22050 3450 0    51   Input ~ 0
+mCOM_5V_SBY
+Text GLabel -22050 3750 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -22050 4750 0    51   Input ~ 0
+mCOM_GND
+Text GLabel -22050 5050 0    51   Input ~ 0
+SLEEPn
+Text GLabel -22050 5150 0    51   Input ~ 0
+mCOM_12V
+Text GLabel -22050 5250 0    51   Input ~ 0
+mCOM_12V
+Text GLabel -22050 5350 0    51   Input ~ 0
+mCOM_12V
+Text GLabel -22050 5450 0    51   Input ~ 0
+mCOM_12V
+Text GLabel -22050 5550 0    51   Input ~ 0
+mCOM_12V
+Text GLabel -22050 5650 0    51   Input ~ 0
+mCOM_12V
+Text GLabel -22050 5750 0    51   Input ~ 0
+mCOM_GND
+$Comp
+L +12V #PWR017
+U 1 1 5A040DA3
+P -36150 -6700
+F 0 "#PWR017" H -36150 -6850 50  0001 C CNN
+F 1 "+12V" H -36150 -6560 50  0000 C CNN
+F 2 "" H -36150 -6700 50  0001 C CNN
+F 3 "" H -36150 -6700 50  0001 C CNN
+	1    -36150 -6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +12V #PWR018
+U 1 1 5A040EAE
+P -36200 -3700
+F 0 "#PWR018" H -36200 -3850 50  0001 C CNN
+F 1 "+12V" H -36200 -3560 50  0000 C CNN
+F 2 "" H -36200 -3700 50  0001 C CNN
+F 3 "" H -36200 -3700 50  0001 C CNN
+	1    -36200 -3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OSTTA024163 J2
+U 1 1 5A041294
+P -37550 -6650
+F 0 "J2" H -37200 -6500 50  0000 C CNN
+F 1 "OSTTA024163" H -37200 -6900 50  0000 C CNN
+F 2 "BusSimulator:OSTTA024163" H -37200 -7000 50  0001 C CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/2015/09/OSTTAXX4163.pdf" H -37200 -7100 50  0001 C CNN
+F 4 "2 Position Wire to Board Terminal Block Horizontal with Board 0.200\" (5.08mm) Through Hole" H -37200 -7200 50  0001 C CNN "Description"
+F 5 "RS" H -37200 -7300 50  0001 C CNN "Supplier_Name"
+F 6 "" H -37200 -7400 50  0001 C CNN "RS Part Number"
+F 7 "On Shore Technology Inc." H -37200 -7500 50  0001 C CNN "Manufacturer_Name"
+F 8 "OSTTA024163" H -37200 -7600 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "" H -37200 -7700 50  0001 C CNN "Allied_Number"
+F 10 "" H -37200 -7800 50  0001 C CNN "Other Part Number"
+F 11 "13" H -37000 -7900 50  0001 C CNN "Height"
+	1    -37550 -6650
+	-1   0    0    1   
+$EndComp
+$Comp
+L +12V #PWR019
+U 1 1 5A0413FE
+P -37550 -6650
+F 0 "#PWR019" H -37550 -6800 50  0001 C CNN
+F 1 "+12V" H -37550 -6510 50  0000 C CNN
+F 2 "" H -37550 -6650 50  0001 C CNN
+F 3 "" H -37550 -6650 50  0001 C CNN
+	1    -37550 -6650
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDREF #PWR020
+U 1 1 5A04143A
+P -37550 -6750
+F 0 "#PWR020" H -37550 -7000 50  0001 C CNN
+F 1 "GNDREF" H -37550 -6900 50  0000 C CNN
+F 2 "" H -37550 -6750 50  0001 C CNN
+F 3 "" H -37550 -6750 50  0001 C CNN
+	1    -37550 -6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R9
+U 1 1 5A042BF5
+P -35350 -5250
+F 0 "R9" V -35270 -5250 50  0000 C CNN
+F 1 "10k" V -35350 -5250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V -35420 -5250 50  0001 C CNN
+F 3 "" H -35350 -5250 50  0001 C CNN
+	1    -35350 -5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R10
+U 1 1 5A042D6A
+P -35200 -5100
+F 0 "R10" V -35120 -5100 50  0000 C CNN
+F 1 "10k" V -35200 -5100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V -35270 -5100 50  0001 C CNN
+F 3 "" H -35200 -5100 50  0001 C CNN
+	1    -35200 -5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDREF #PWR026
+U 1 1 5A042E3D
+P -35200 -4950
+F 0 "#PWR026" H -35200 -5200 50  0001 C CNN
+F 1 "GNDREF" H -35200 -5100 50  0000 C CNN
+F 2 "" H -35200 -4950 50  0001 C CNN
+F 3 "" H -35200 -4950 50  0001 C CNN
+	1    -35200 -4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR027
+U 1 1 5A043A65
+P -35150 -7450
+F 0 "#PWR027" H -35150 -7600 50  0001 C CNN
+F 1 "+12V" H -35150 -7310 50  0000 C CNN
+F 2 "" H -35150 -7450 50  0001 C CNN
+F 3 "" H -35150 -7450 50  0001 C CNN
+	1    -35150 -7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 5A043AF6
+P -35150 -7200
+F 0 "R11" V -35070 -7200 50  0000 C CNN
+F 1 "30k" V -35150 -7200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V -35220 -7200 50  0001 C CNN
+F 3 "" H -35150 -7200 50  0001 C CNN
+	1    -35150 -7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 5A043B99
+P -35150 -6900
+F 0 "R12" V -35070 -6900 50  0000 C CNN
+F 1 "10k" V -35150 -6900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V -35220 -6900 50  0001 C CNN
+F 3 "" H -35150 -6900 50  0001 C CNN
+	1    -35150 -6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR028
+U 1 1 5A043C4E
+P -35150 -6750
+F 0 "#PWR028" H -35150 -7000 50  0001 C CNN
+F 1 "GNDREF" H -35150 -6900 50  0000 C CNN
+F 2 "" H -35150 -6750 50  0001 C CNN
+F 3 "" H -35150 -6750 50  0001 C CNN
+	1    -35150 -6750
+	1    0    0    -1  
+$EndComp
+Text GLabel -34950 -2250 2    60   Input ~ 0
++3.3V
+Text GLabel -34950 -5250 2    60   Input ~ 0
++2.5V
+Text GLabel -34800 -7050 2    60   Input ~ 0
++3V
+$Comp
+L LOGO G1
+U 1 1 5A0420BA
+P -20200 6250
+F 0 "G1" H -20200 6171 60  0001 C CNN
+F 1 "LOGO" H -20200 6329 60  0001 C CNN
+F 2 "BusSimulator:LetSatLogo440" H -20200 6250 60  0001 C CNN
+F 3 "" H -20200 6250 60  0001 C CNN
+	1    -20200 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel -34900 -2700 2    51   Input ~ 0
+mCOM_GND
+Text GLabel -34950 -7400 2    51   Input ~ 0
+12v_sense
+Text GLabel -34950 -5400 2    51   Input ~ 0
+mCOM_5V_SBY
+Text GLabel -17750 600  0    51   Input ~ 0
+I2C_CK
+Text GLabel -17750 700  0    51   Input ~ 0
+I2C_DAT
+Text Notes -18200 300  0    118  ~ 0
+Break out\n
+Text Notes -38900 -150 0    118  ~ 0
+Isolation\n\n
+$Comp
+L LED D6
+U 1 1 5A07DE5B
+P -28600 -2150
+F 0 "D6" H -28600 -2050 50  0000 C CNN
+F 1 "LED" H -28600 -2250 50  0000 C CNN
+F 2 "Diodes_SMD:D_1206" H -28600 -2150 50  0001 C CNN
+F 3 "" H -28600 -2150 50  0001 C CNN
+	1    -28600 -2150
+	-1   0    0    1   
+$EndComp
+Text Notes -30050 -2600 0    118  ~ 0
+LED Indicators\n
+Text Notes -30050 -7700 0    118  ~ 0
+ADC\n
+$Comp
+L LED D7
+U 1 1 5A08439E
+P -28600 -1850
+F 0 "D7" H -28600 -1750 50  0000 C CNN
+F 1 "LED" H -28600 -1950 50  0000 C CNN
+F 2 "Diodes_SMD:D_1206" H -28600 -1850 50  0001 C CNN
+F 3 "" H -28600 -1850 50  0001 C CNN
+	1    -28600 -1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D8
+U 1 1 5A084441
+P -28600 -1550
+F 0 "D8" H -28600 -1450 50  0000 C CNN
+F 1 "LED" H -28600 -1650 50  0000 C CNN
+F 2 "Diodes_SMD:D_1206" H -28600 -1550 50  0001 C CNN
+F 3 "" H -28600 -1550 50  0001 C CNN
+	1    -28600 -1550
+	-1   0    0    1   
+$EndComp
+Text GLabel -28750 -2150 0    60   Input ~ 0
++3.3V
+Text Notes -29800 -2100 0    60   ~ 0
+3V3\n
+Text Notes -29800 -1800 0    60   ~ 0
+12V\n
+Text Notes -29800 -1500 0    60   ~ 0
+5V SBY\n
+Text GLabel -28750 -1550 0    51   Input ~ 0
+mCOM_5V_SBY
+$Comp
+L R R23
+U 1 1 5A0890AC
+P -28300 -2150
+F 0 "R23" V -28220 -2150 50  0000 C CNN
+F 1 "330" V -28300 -2150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V -28370 -2150 50  0001 C CNN
+F 3 "" H -28300 -2150 50  0001 C CNN
+	1    -28300 -2150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R24
+U 1 1 5A0891D7
+P -28300 -1850
+F 0 "R24" V -28220 -1850 50  0000 C CNN
+F 1 "180" V -28300 -1850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V -28370 -1850 50  0001 C CNN
+F 3 "" H -28300 -1850 50  0001 C CNN
+	1    -28300 -1850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R25
+U 1 1 5A0892AA
+P -28300 -1550
+F 0 "R25" V -28220 -1550 50  0000 C CNN
+F 1 "1k" V -28300 -1550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V -28370 -1550 50  0001 C CNN
+F 3 "" H -28300 -1550 50  0001 C CNN
+	1    -28300 -1550
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDREF #PWR043
+U 1 1 5A08977E
+P -27950 -1150
+F 0 "#PWR043" H -27950 -1400 50  0001 C CNN
+F 1 "GNDREF" H -27950 -1300 50  0000 C CNN
+F 2 "" H -27950 -1150 50  0001 C CNN
+F 3 "" H -27950 -1150 50  0001 C CNN
+	1    -27950 -1150
+	1    0    0    -1  
+$EndComp
+Text Notes -38900 -7650 0    118  ~ 0
+Voltage Supply
+Text Notes -34050 -7750 0    118  ~ 0
+Amplifiers\n
+Text Notes -26450 -7650 0    118  ~ 0
+Microcontroller\n
+Text Notes -30050 100  0    118  ~ 0
+Connectors\n
+Text Notes -20700 6900 0    217  ~ 0
+LetSat-1 Bus Simulator
+Text Notes -17150 7500 0    79   ~ 0
+1
+Text Notes -19500 7550 0    79   ~ 0
+FALL 2017\n
+Text Notes -33950 -3400 0    118  ~ 0
+Current Sense\n
+$Comp
+L D_Zener D5
+U 1 1 5A07A33B
+P -28900 -1850
+F 0 "D5" H -28900 -1750 50  0000 C CNN
+F 1 "D_Zener 9V" H -28900 -1950 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323" H -28900 -1850 50  0001 C CNN
+F 3 "" H -28900 -1850 50  0001 C CNN
+	1    -28900 -1850
+	1    0    0    -1  
+$EndComp
+Text GLabel -29050 -1850 0    51   Input ~ 0
+mCOM_12V
+$Comp
+L CS30CL IC2
+U 1 1 5A077E3D
+P -33450 -350
+F 0 "IC2" H -33000 -200 50  0000 C CNN
+F 1 "CS30CL" H -33000 -700 50  0000 C CNN
+F 2 "BusSimulator:SOT95P280X145-5N" H -33000 -800 50  0001 C CNN
+F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/DM00109905.pdf" H -33000 -900 50  0001 C CNN
+F 4 "Current Sense Amplifiers ANALOG" H -33000 -1000 50  0001 C CNN "Description"
+F 5 "RS" H -33000 -1100 50  0001 C CNN "Supplier_Name"
+F 6 "8607517" H -33000 -1200 50  0001 C CNN "RS Part Number"
+F 7 "STMicroelectronics" H -33000 -1300 50  0001 C CNN "Manufacturer_Name"
+F 8 "CS30CL" H -33000 -1400 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "70602616" H -33000 -1500 50  0001 C CNN "Allied_Number"
+F 10 "" H -33000 -1600 50  0001 C CNN "Other Part Number"
+F 11 "1.45" H -32700 -1700 50  0001 C CNN "Height"
+	1    -33450 -350
+	1    0    0    -1  
+$EndComp
+Text GLabel -32300 -250 2    51   Input ~ 0
+mCOM_5V_SBY
+$Comp
+L CP C20
+U 1 1 5A07AD4A
+P -32400 50
+F 0 "C20" V -32325 275 60  0000 C CNN
+F 1 ".1uF" V -32400 225 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H -32250 -310 60  0001 C CNN
+F 3 "" H -32400 50  60  0000 C CNN
+	1    -32400 50  
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GNDREF #PWR044
+U 1 1 5A07B2E8
+P -32400 50
+F 0 "#PWR044" H -32400 -200 50  0001 C CNN
+F 1 "GNDREF" H -32400 -100 50  0000 C CNN
+F 2 "" H -32400 50  50  0001 C CNN
+F 3 "" H -32400 50  50  0001 C CNN
+	1    -32400 50  
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR045
+U 1 1 5A07C29E
+P -33900 -250
+F 0 "#PWR045" H -33900 -500 50  0001 C CNN
+F 1 "GNDREF" H -33900 -400 50  0000 C CNN
+F 2 "" H -33900 -250 50  0001 C CNN
+F 3 "" H -33900 -250 50  0001 C CNN
+	1    -33900 -250
+	1    0    0    -1  
+$EndComp
+Text GLabel -33450 -350 0    60   Input ~ 0
+Current_3v3
+$Comp
+L R R17
+U 1 1 5A07CE86
+P -31200 50
+F 0 "R17" V -31120 50  50  0000 C CNN
+F 1 "25m" V -31200 50  50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -31270 50  50  0001 C CNN
+F 3 "" H -31200 50  50  0001 C CNN
+	1    -31200 50  
+	1    0    0    -1  
+$EndComp
+$Comp
+L CS30CL IC1
+U 1 1 5A07D6A1
+P -33450 -1600
+F 0 "IC1" H -33000 -1450 50  0000 C CNN
+F 1 "CS30CL" H -33000 -1950 50  0000 C CNN
+F 2 "BusSimulator:SOT95P280X145-5N" H -33000 -2050 50  0001 C CNN
+F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/DM00109905.pdf" H -33000 -2150 50  0001 C CNN
+F 4 "Current Sense Amplifiers ANALOG" H -33000 -2250 50  0001 C CNN "Description"
+F 5 "RS" H -33000 -2350 50  0001 C CNN "Supplier_Name"
+F 6 "8607517" H -33000 -2450 50  0001 C CNN "RS Part Number"
+F 7 "STMicroelectronics" H -33000 -2550 50  0001 C CNN "Manufacturer_Name"
+F 8 "CS30CL" H -33000 -2650 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "70602616" H -33000 -2750 50  0001 C CNN "Allied_Number"
+F 10 "" H -33000 -2850 50  0001 C CNN "Other Part Number"
+F 11 "1.45" H -32700 -2950 50  0001 C CNN "Height"
+	1    -33450 -1600
+	1    0    0    -1  
+$EndComp
+Text GLabel -32300 -1500 2    51   Input ~ 0
+mCOM_5V_SBY
+$Comp
+L CP C19
+U 1 1 5A07D6A9
+P -32400 -1200
+F 0 "C19" V -32325 -975 60  0000 C CNN
+F 1 ".1uF" V -32400 -1025 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H -32250 -1560 60  0001 C CNN
+F 3 "" H -32400 -1200 60  0000 C CNN
+	1    -32400 -1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GNDREF #PWR046
+U 1 1 5A07D6B0
+P -32400 -1200
+F 0 "#PWR046" H -32400 -1450 50  0001 C CNN
+F 1 "GNDREF" H -32400 -1350 50  0000 C CNN
+F 2 "" H -32400 -1200 50  0001 C CNN
+F 3 "" H -32400 -1200 50  0001 C CNN
+	1    -32400 -1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR047
+U 1 1 5A07D6B6
+P -33900 -1500
+F 0 "#PWR047" H -33900 -1750 50  0001 C CNN
+F 1 "GNDREF" H -33900 -1650 50  0000 C CNN
+F 2 "" H -33900 -1500 50  0001 C CNN
+F 3 "" H -33900 -1500 50  0001 C CNN
+	1    -33900 -1500
+	1    0    0    -1  
+$EndComp
+Text GLabel -33450 -1600 0    60   Input ~ 0
+Current_5v
+$Comp
+L R R16
+U 1 1 5A07D6C2
+P -31200 -1200
+F 0 "R16" V -31120 -1200 50  0000 C CNN
+F 1 "25m" V -31200 -1200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -31270 -1200 50  0001 C CNN
+F 3 "" H -31200 -1200 50  0001 C CNN
+	1    -31200 -1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CS30CL IC3
+U 1 1 5A07DC6C
+P -33350 -2700
+F 0 "IC3" H -32900 -2550 50  0000 C CNN
+F 1 "CS30CL" H -32900 -3050 50  0000 C CNN
+F 2 "BusSimulator:SOT95P280X145-5N" H -32900 -3150 50  0001 C CNN
+F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/DM00109905.pdf" H -32900 -3250 50  0001 C CNN
+F 4 "Current Sense Amplifiers ANALOG" H -32900 -3350 50  0001 C CNN "Description"
+F 5 "RS" H -32900 -3450 50  0001 C CNN "Supplier_Name"
+F 6 "8607517" H -32900 -3550 50  0001 C CNN "RS Part Number"
+F 7 "STMicroelectronics" H -32900 -3650 50  0001 C CNN "Manufacturer_Name"
+F 8 "CS30CL" H -32900 -3750 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "70602616" H -32900 -3850 50  0001 C CNN "Allied_Number"
+F 10 "" H -32900 -3950 50  0001 C CNN "Other Part Number"
+F 11 "1.45" H -32600 -4050 50  0001 C CNN "Height"
+	1    -33350 -2700
+	1    0    0    -1  
+$EndComp
+Text GLabel -32200 -2600 2    51   Input ~ 0
+mCOM_5V_SBY
+$Comp
+L CP C21
+U 1 1 5A07DC74
+P -32300 -2300
+F 0 "C21" V -32225 -2075 60  0000 C CNN
+F 1 ".1uF" V -32300 -2125 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H -32150 -2660 60  0001 C CNN
+F 3 "" H -32300 -2300 60  0000 C CNN
+	1    -32300 -2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GNDREF #PWR048
+U 1 1 5A07DC7B
+P -32300 -2300
+F 0 "#PWR048" H -32300 -2550 50  0001 C CNN
+F 1 "GNDREF" H -32300 -2450 50  0000 C CNN
+F 2 "" H -32300 -2300 50  0001 C CNN
+F 3 "" H -32300 -2300 50  0001 C CNN
+	1    -32300 -2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR049
+U 1 1 5A07DC81
+P -33800 -2600
+F 0 "#PWR049" H -33800 -2850 50  0001 C CNN
+F 1 "GNDREF" H -33800 -2750 50  0000 C CNN
+F 2 "" H -33800 -2600 50  0001 C CNN
+F 3 "" H -33800 -2600 50  0001 C CNN
+	1    -33800 -2600
+	1    0    0    -1  
+$EndComp
+Text GLabel -33350 -2700 0    60   Input ~ 0
+Current_12v
+$Comp
+L R R20
+U 1 1 5A07DC8D
+P -31100 -2300
+F 0 "R20" V -31020 -2300 50  0000 C CNN
+F 1 "25m" V -31100 -2300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -31170 -2300 50  0001 C CNN
+F 3 "" H -31100 -2300 50  0001 C CNN
+	1    -31100 -2300
+	1    0    0    -1  
+$EndComp
+Text GLabel -30900 -1900 2    60   Input ~ 0
+12v_sense
+Text GLabel -30950 -2700 2    60   Input ~ 0
+Load_1_PWR
+Text GLabel -31050 -750 2    60   Input ~ 0
+5v_sense
+Text GLabel -30950 -1600 2    60   Input ~ 0
+Load_2_PWR
+Text GLabel -31100 400  2    60   Input ~ 0
+3v3_sense
+Text GLabel -31000 -450 2    60   Input ~ 0
+Load_3_PWR
+$Comp
+L MSATA-Socket U9
+U 1 1 5A0BAE45
+P -18950 2700
+F 0 "U9" H -19350 4000 60  0000 C CNN
+F 1 "MSATA-Socket" H -18850 1150 60  0000 C CNN
+F 2 "BusSimulator:msata-socket" H -18850 1700 60  0000 C CNN
+F 3 "" H -18850 1700 60  0000 C CNN
+	1    -18950 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel -17100 2950 2    60   Input ~ 0
++3.3V
+Text GLabel -17000 4150 2    60   Input ~ 0
++3.3V
+Text GLabel -17100 1550 2    60   Input ~ 0
++3.3V
+Text GLabel -20750 2050 0    60   Input ~ 0
++3.3V
+Text GLabel -20750 2150 0    60   Input ~ 0
++3.3V
+$Comp
+L GNDREF #PWR058
+U 1 1 5A0C1B77
+P -18050 1650
+F 0 "#PWR058" H -18050 1400 50  0001 C CNN
+F 1 "GNDREF" H -18050 1500 50  0000 C CNN
+F 2 "" H -18050 1650 50  0001 C CNN
+F 3 "" H -18050 1650 50  0001 C CNN
+	1    -18050 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR059
+U 1 1 5A0C1C29
+P -17850 4050
+F 0 "#PWR059" H -17850 3800 50  0001 C CNN
+F 1 "GNDREF" H -17850 3900 50  0000 C CNN
+F 2 "" H -17850 4050 50  0001 C CNN
+F 3 "" H -17850 4050 50  0001 C CNN
+	1    -17850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR060
+U 1 1 5A0C1CDB
+P -17750 2850
+F 0 "#PWR060" H -17750 2600 50  0001 C CNN
+F 1 "GNDREF" H -17750 2700 50  0000 C CNN
+F 2 "" H -17750 2850 50  0001 C CNN
+F 3 "" H -17750 2850 50  0001 C CNN
+	1    -17750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR061
+U 1 1 5A0C1D8D
+P -17750 2450
+F 0 "#PWR061" H -17750 2200 50  0001 C CNN
+F 1 "GNDREF" H -17750 2300 50  0000 C CNN
+F 2 "" H -17750 2450 50  0001 C CNN
+F 3 "" H -17750 2450 50  0001 C CNN
+	1    -17750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR062
+U 1 1 5A0C1E3F
+P -17750 2150
+F 0 "#PWR062" H -17750 1900 50  0001 C CNN
+F 1 "GNDREF" H -17750 2000 50  0000 C CNN
+F 2 "" H -17750 2150 50  0001 C CNN
+F 3 "" H -17750 2150 50  0001 C CNN
+	1    -17750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR063
+U 1 1 5A0C1EF1
+P -17750 3250
+F 0 "#PWR063" H -17750 3000 50  0001 C CNN
+F 1 "GNDREF" H -17750 3100 50  0000 C CNN
+F 2 "" H -17750 3250 50  0001 C CNN
+F 3 "" H -17750 3250 50  0001 C CNN
+	1    -17750 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel -19600 1650 0    51   Input ~ 0
+SATA_ACTn
+Text GLabel -19600 2450 0    51   Input ~ 0
+SATA0_TX+
+Text GLabel -19600 2550 0    51   Input ~ 0
+SATA0_TX-
+Text GLabel -19600 2950 0    51   Input ~ 0
+SATA0_RX+
+Text GLabel -19600 2850 0    51   Input ~ 0
+SATA0_RX-
+$Comp
+L GNDREF #PWR064
+U 1 1 5A0C49FB
+P -19950 3800
+F 0 "#PWR064" H -19950 3550 50  0001 C CNN
+F 1 "GNDREF" H -19950 3650 50  0000 C CNN
+F 2 "" H -19950 3800 50  0001 C CNN
+F 3 "" H -19950 3800 50  0001 C CNN
+	1    -19950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR065
+U 1 1 5A0C4BAB
+P -19850 3450
+F 0 "#PWR065" H -19850 3200 50  0001 C CNN
+F 1 "GNDREF" H -19850 3300 50  0000 C CNN
+F 2 "" H -19850 3450 50  0001 C CNN
+F 3 "" H -19850 3450 50  0001 C CNN
+	1    -19850 3450
+	1    0    0    -1  
+$EndComp
+Text Notes -20050 1250 0    60   ~ 0
+Sata Connector\n
+$Comp
+L GNDREF #PWR066
+U 1 1 5A0C6A3D
+P -20300 2350
+F 0 "#PWR066" H -20300 2100 50  0001 C CNN
+F 1 "GNDREF" H -20300 2200 50  0000 C CNN
+F 2 "" H -20300 2350 50  0001 C CNN
+F 3 "" H -20300 2350 50  0001 C CNN
+	1    -20300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR067
+U 1 1 5A0C6D48
+P -20250 2750
+F 0 "#PWR067" H -20250 2500 50  0001 C CNN
+F 1 "GNDREF" H -20250 2600 50  0000 C CNN
+F 2 "" H -20250 2750 50  0001 C CNN
+F 3 "" H -20250 2750 50  0001 C CNN
+	1    -20250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R32
+U 1 1 5A0C7549
+P -20150 1700
+F 0 "R32" V -20070 1700 50  0000 C CNN
+F 1 "0" V -20150 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -20220 1700 50  0001 C CNN
+F 3 "" H -20150 1700 50  0001 C CNN
+	1    -20150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR068
+U 1 1 5A0C77C7
+P -20150 1850
+F 0 "#PWR068" H -20150 1600 50  0001 C CNN
+F 1 "GNDREF" H -20150 1700 50  0000 C CNN
+F 2 "" H -20150 1850 50  0001 C CNN
+F 3 "" H -20150 1850 50  0001 C CNN
+	1    -20150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C27
+U 1 1 5A0DCDF0
+P -20650 2050
+F 0 "C27" H -20500 2200 60  0000 C CNN
+F 1 ".1uF" H -20500 1750 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H -20500 1690 60  0001 C CNN
+F 3 "" H -20650 2050 60  0000 C CNN
+	1    -20650 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP C28
+U 1 1 5A0DCEC7
+P -20650 2150
+F 0 "C28" H -20500 2300 60  0000 C CNN
+F 1 ".1uF" H -20500 1850 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H -20500 1790 60  0001 C CNN
+F 3 "" H -20650 2150 60  0000 C CNN
+	1    -20650 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDREF #PWR078
+U 1 1 5A0DCFAA
+P -21000 1750
+F 0 "#PWR078" H -21000 1500 50  0001 C CNN
+F 1 "GNDREF" H -21000 1600 50  0000 C CNN
+F 2 "" H -21000 1750 50  0001 C CNN
+F 3 "" H -21000 1750 50  0001 C CNN
+	1    -21000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR079
+U 1 1 5A0DD07C
+P -20650 2450
+F 0 "#PWR079" H -20650 2200 50  0001 C CNN
+F 1 "GNDREF" H -20650 2300 50  0000 C CNN
+F 2 "" H -20650 2450 50  0001 C CNN
+F 3 "" H -20650 2450 50  0001 C CNN
+	1    -20650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C29
+U 1 1 5A0DD5C0
+P -17250 1550
+F 0 "C29" H -17100 1700 60  0000 C CNN
+F 1 ".1uF" H -17100 1250 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H -17100 1190 60  0001 C CNN
+F 3 "" H -17250 1550 60  0000 C CNN
+	1    -17250 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDREF #PWR081
+U 1 1 5A0DDC34
+P -17250 1850
+F 0 "#PWR081" H -17250 1600 50  0001 C CNN
+F 1 "GNDREF" H -17250 1700 50  0000 C CNN
+F 2 "" H -17250 1850 50  0001 C CNN
+F 3 "" H -17250 1850 50  0001 C CNN
+	1    -17250 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J6
+U 1 1 5A0B4AD9
+P -17550 700
+F 0 "J6" H -17550 900 50  0000 C CNN
+F 1 "Conn_01x03" H -17550 500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H -17550 700 50  0001 C CNN
+F 3 "" H -17550 700 50  0001 C CNN
+	1    -17550 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR086
+U 1 1 5A0B68CF
+P -17750 800
+F 0 "#PWR086" H -17750 550 50  0001 C CNN
+F 1 "GNDREF" H -17750 650 50  0000 C CNN
+F 2 "" H -17750 800 50  0001 C CNN
+F 3 "" H -17750 800 50  0001 C CNN
+	1    -17750 800 
+	1    0    0    -1  
+$EndComp
+Text GLabel -34950 -7500 2    60   Input ~ 0
+mCom_12V
+Text GLabel -35050 -4950 2    60   Input ~ 0
+mCOM_GND
+Connection ~ -35150 -7400
+Wire Wire Line
+	-35150 -7400 -34950 -7400
+Connection ~ -35150 -2700
+Wire Wire Line
+	-35150 -7450 -35150 -7350
+Wire Wire Line
+	-35150 -7050 -34800 -7050
+Wire Wire Line
+	-35200 -5250 -34950 -5250
+Wire Wire Line
+	-35350 -2700 -34900 -2700
+Wire Wire Line
+	-35350 -2650 -35350 -2700
+Wire Wire Line
+	-35700 -2650 -35350 -2650
+Wire Wire Line
+	-35650 -5650 -35200 -5650
+Wire Wire Line
+	-35400 -3250 -35400 -3200
+Wire Wire Line
+	-35475 -3250 -35400 -3250
+Wire Wire Line
+	-35975 -3250 -35775 -3250
+Wire Wire Line
+	-37100 -1500 -35550 -1500
+Wire Wire Line
+	-37100 -2750 -37100 -1500
+Wire Wire Line
+	-36700 -2750 -37100 -2750
+Wire Wire Line
+	-36275 -3625 -36375 -3625
+Connection ~ -36275 -3350
+Wire Wire Line
+	-36375 -3350 -36275 -3350
+Wire Wire Line
+	-36375 -3250 -36375 -3350
+Wire Wire Line
+	-36275 -3625 -36275 -3250
+Wire Wire Line
+	-36200 -3250 -36175 -3250
+Wire Wire Line
+	-36200 -3700 -36200 -3250
+Wire Wire Line
+	-36075 -3375 -36075 -3250
+Wire Wire Line
+	-35875 -3375 -36075 -3375
+Wire Wire Line
+	-35875 -3700 -35900 -3700
+Wire Wire Line
+	-35875 -3700 -35875 -3375
+Wire Wire Line
+	-36700 -1950 -36900 -1950
+Connection ~ -35550 -2250
+Wire Wire Line
+	-35550 -2400 -35550 -1800
+Connection ~ -35550 -1950
+Connection ~ -35550 -2100
+Wire Wire Line
+	-35550 -1950 -35700 -1950
+Wire Wire Line
+	-35550 -2100 -35700 -2100
+Wire Wire Line
+	-35700 -2250 -34950 -2250
+Wire Wire Line
+	-35350 -6250 -35350 -6200
+Wire Wire Line
+	-35425 -6250 -35350 -6250
+Wire Wire Line
+	-35925 -6250 -35725 -6250
+Wire Wire Line
+	-37050 -4500 -35500 -4500
+Wire Wire Line
+	-37050 -5750 -37050 -4500
+Wire Wire Line
+	-36650 -5750 -37050 -5750
+Wire Wire Line
+	-36225 -6625 -36325 -6625
+Connection ~ -36225 -6350
+Wire Wire Line
+	-36325 -6350 -36225 -6350
+Wire Wire Line
+	-36325 -6250 -36325 -6350
+Wire Wire Line
+	-36225 -6625 -36225 -6250
+Wire Wire Line
+	-36150 -6250 -36125 -6250
+Wire Wire Line
+	-36150 -6700 -36150 -6250
+Wire Wire Line
+	-36025 -6375 -36025 -6250
+Wire Wire Line
+	-35825 -6375 -36025 -6375
+Wire Wire Line
+	-35825 -6700 -35850 -6700
+Wire Wire Line
+	-35825 -6700 -35825 -6375
+Wire Wire Line
+	-36650 -4950 -36850 -4950
+Connection ~ -35500 -5250
+Wire Wire Line
+	-35500 -5400 -35500 -4800
+Connection ~ -35500 -4950
+Connection ~ -35500 -5100
+Wire Wire Line
+	-35500 -4950 -35650 -4950
+Wire Wire Line
+	-35500 -5100 -35650 -5100
+Wire Wire Line
+	-35650 -5250 -35500 -5250
+Wire Wire Line
+	-34950 -5400 -35500 -5400
+Connection ~ -35500 -5400
+Connection ~ -35150 -7050
+Connection ~ -35500 -4500
+Wire Wire Line
+	-28150 -2150 -27950 -2150
+Wire Wire Line
+	-27950 -2150 -27950 -1150
+Wire Wire Line
+	-28150 -1850 -27950 -1850
+Connection ~ -27950 -1850
+Wire Wire Line
+	-28150 -1550 -27950 -1550
+Connection ~ -27950 -1550
+Connection ~ -27950 -1250
+Wire Notes Line
+	-34100 200  -34100 -7600
+Wire Notes Line
+	-30150 -8050 -30150 7650
+Wire Notes Line
+	-26650 -150 -26650 -7950
+Wire Notes Line
+	-26700 -150 -16500 -150
+Wire Notes Line
+	-30150 -2800 -26650 -2800
+Wire Notes Line
+	-33150 -3600 -30150 -3600
+Wire Notes Line
+	-26550 -150 -30150 -150
+Wire Notes Line
+	-32900 -3600 -34100 -3600
+Wire Notes Line
+	-34100 -7900 -34100 -7450
+Wire Notes Line
+	-39000 -600 -34100 -600
+Wire Wire Line
+	-32550 -250 -32300 -250
+Connection ~ -32400 -250
+Wire Wire Line
+	-33450 -250 -33900 -250
+Wire Wire Line
+	-33450 -150 -33450 350 
+Wire Wire Line
+	-33450 350  -31200 350 
+Wire Wire Line
+	-32550 -350 -31200 -350
+Wire Wire Line
+	-31200 -450 -31200 -100
+Wire Wire Line
+	-31200 200  -31200 400 
+Wire Wire Line
+	-32550 -1500 -32300 -1500
+Connection ~ -32400 -1500
+Wire Wire Line
+	-33450 -1500 -33900 -1500
+Wire Wire Line
+	-33450 -1400 -33450 -900
+Wire Wire Line
+	-33450 -900 -31200 -900
+Wire Wire Line
+	-32550 -1600 -30950 -1600
+Wire Wire Line
+	-31200 -1600 -31200 -1350
+Wire Wire Line
+	-31200 -1050 -31200 -750
+Wire Wire Line
+	-32450 -2600 -32200 -2600
+Connection ~ -32300 -2600
+Wire Wire Line
+	-33350 -2600 -33800 -2600
+Wire Wire Line
+	-33350 -2500 -33350 -2000
+Wire Wire Line
+	-33350 -2000 -31100 -2000
+Wire Wire Line
+	-32450 -2700 -30950 -2700
+Wire Wire Line
+	-31100 -2700 -31100 -2450
+Wire Wire Line
+	-31100 -2150 -31100 -1900
+Connection ~ -31100 -2000
+Connection ~ -31100 -2700
+Wire Wire Line
+	-31200 -750 -31050 -750
+Connection ~ -31200 -900
+Connection ~ -31200 -1600
+Wire Wire Line
+	-31000 -450 -31200 -450
+Connection ~ -31200 -350
+Wire Wire Line
+	-31200 400  -31100 400 
+Connection ~ -31200 350 
+Wire Wire Line
+	-31100 -1900 -30900 -1900
+Wire Wire Line
+	-18050 1650 -18300 1650
+Wire Wire Line
+	-17750 2150 -18300 2150
+Wire Wire Line
+	-18300 2450 -17750 2450
+Wire Wire Line
+	-17750 2850 -18300 2850
+Wire Wire Line
+	-17750 3250 -18300 3250
+Wire Wire Line
+	-17850 4050 -18300 4050
+Wire Wire Line
+	-19600 3750 -19950 3750
+Wire Wire Line
+	-19950 3750 -19950 3800
+Wire Wire Line
+	-19600 3450 -19850 3450
+Wire Wire Line
+	-19600 3050 -19850 3050
+Wire Wire Line
+	-19850 3050 -19850 3450
+Connection ~ -19850 3450
+Wire Wire Line
+	-20300 2350 -19600 2350
+Wire Wire Line
+	-19600 2250 -20150 2250
+Wire Wire Line
+	-20150 2250 -20150 2350
+Connection ~ -20150 2350
+Wire Wire Line
+	-20250 2750 -19600 2750
+Wire Wire Line
+	-19600 2650 -20150 2650
+Wire Wire Line
+	-20150 2650 -20150 2750
+Connection ~ -20150 2750
+Wire Wire Line
+	-19600 1550 -20150 1550
+Wire Wire Line
+	-18300 1550 -17100 1550
+Wire Wire Line
+	-18300 2950 -17100 2950
+Wire Wire Line
+	-18300 4150 -17000 4150
+Wire Wire Line
+	-20750 2150 -19600 2150
+Wire Wire Line
+	-21000 1750 -20650 1750
+Wire Wire Line
+	-20750 2050 -19600 2050
+Connection ~ -20650 2150
+Connection ~ -20650 2050
+Wire Wire Line
+	-36150 -7000 -36400 -7000
+Wire Wire Line
+	-36400 -7000 -36400 -6950
+Connection ~ -35200 -5250
+Connection ~ -35650 -4950
+Wire Wire Line
+	-36400 -4000 -36200 -4000
+Connection ~ -36200 -3700
+Connection ~ -36150 -6700
+Wire Wire Line
+	-34950 -7500 -35100 -7500
+Wire Wire Line
+	-35100 -7500 -35100 -7400
+Connection ~ -35100 -7400
+Wire Wire Line
+	-35200 -4950 -35050 -4950
+Connection ~ -17250 1550
+$Comp
 L Conn_02x26_Odd_Even J?
 U 1 1 5A6C2591
 P 3100 6250
