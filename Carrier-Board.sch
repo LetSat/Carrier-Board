@@ -1497,4 +1497,6 @@ Text Notes 9850 1950 0    60   ~ 0
 MISC SHIT
 Text Notes 11600 700  0    60   ~ 0
 PC104\n
+Text Notes 9450 10900 0    60   ~ 0
+Pixie Wranglers:\nPrabodh Jhaveri \nChandler Griscom\n
 $EndSCHEMATC
