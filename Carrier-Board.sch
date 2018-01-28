@@ -985,6 +985,354 @@ F 3 "" H 8850 1600 50  0001 C CNN
 	1    8850 1600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Conn_02x26_Odd_Even J3
+U 1 1 5A6C2591
+P 11900 2050
+F 0 "J3" H 11950 3350 50  0000 C CNN
+F 1 "Conn_02x26_Odd_Even" H 11950 650 50  0000 C CNN
+F 2 "Carrier-Board:ESQ-126-XX-X-D" H 11900 2050 50  0001 C CNN
+F 3 "" H 11900 2050 50  0001 C CNN
+	1    11900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x26_Odd_Even J5
+U 1 1 5A6C25B0
+P 12700 2050
+F 0 "J5" H 12750 3350 50  0000 C CNN
+F 1 "Conn_02x26_Odd_Even" H 12750 650 50  0000 C CNN
+F 2 "Carrier-Board:ESQ-126-XX-X-D" H 12700 2050 50  0001 C CNN
+F 3 "" H 12700 2050 50  0001 C CNN
+	1    12700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x09_Odd_Even J4
+U 1 1 5A6C2649
+P 6100 5150
+F 0 "J4" H 6500 5300 50  0000 C CNN
+F 1 "SI-51009-F" H 6500 4600 50  0000 C CNN
+F 2 "Carrier-Board:SI-51009-F" H 6500 4500 50  0001 C CNN
+F 3 "http://belfuse.com/pdfs/SI-51009-F.pdf" H 6500 4400 50  0001 C CNN
+F 4 "Modular Connectors / Ethernet Connectors RJ45 Connector, 8 Position, 1 port" H 6500 4300 50  0001 C CNN "Description"
+F 5 "RS" H 6500 4200 50  0001 C CNN "Supplier_Name"
+F 6 "Bel-Stewart" H 6500 4000 50  0001 C CNN "Manufacturer_Name"
+F 7 "SI-51009-F" H 6500 3900 50  0001 C CNN "Manufacturer_Part_Number"
+	1    6100 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Barrel_Jack J2
+U 1 1 5A6C7CD3
+P 1000 1350
+F 0 "J2" H 1000 1450 50  0000 C CNN
+F 1 "Conn_01x0" H 1000 1150 50  0000 C CNN
+F 2 "Connectors:Barrel_Jack_CUI_PJ-036AH-SMT" H 1000 1350 50  0001 C CNN
+F 3 "" H 1000 1350 50  0001 C CNN
+	1    1000 1350
+	0    1    1    0   
+$EndComp
+Text GLabel 9800 1400 0    51   Input ~ 0
+mCOM_TX
+Text GLabel 9800 1500 0    51   Input ~ 0
+mCOM_RX
+Text GLabel 9800 1600 0    51   Input ~ 0
+mCOM_GND
+$Comp
+L Conn_01x06_Male J8
+U 1 1 5A6CEF71
+P 10450 2400
+F 0 "J8" H 10450 2700 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 10450 2000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 10450 2400 50  0001 C CNN
+F 3 "" H 10450 2400 50  0001 C CNN
+	1    10450 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x03_Male J7
+U 1 1 5A6CF26A
+P 10000 1500
+F 0 "J7" H 10000 1700 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 10000 1300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 10000 1500 50  0001 C CNN
+F 3 "" H 10000 1500 50  0001 C CNN
+	1    10000 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x03_Male J6
+U 1 1 5A6CF317
+P 8950 1500
+F 0 "J6" H 8950 1700 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 8950 1300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 8950 1500 50  0001 C CNN
+F 3 "" H 8950 1500 50  0001 C CNN
+	1    8950 1500
+	-1   0    0    1   
+$EndComp
+Text GLabel 10250 2100 0    51   Input ~ 0
+mCOM_GND
+Text GLabel 10250 2200 0    51   Input ~ 0
+PWRBTNn
+Text GLabel 10250 2300 0    51   Input ~ 0
+SYS_RESETn
+Text GLabel 10250 2400 0    51   Input ~ 0
+WAKE1n
+Text GLabel 10250 2600 0    51   Input ~ 0
+SLEEPn
+$Comp
+L Conn_02x04_Odd_Even J9
+U 1 1 5A6D35A7
+P 8900 2100
+F 0 "J9" H 8950 2300 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 8950 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x04_Pitch2.54mm" H 8900 2100 50  0001 C CNN
+F 3 "" H 8900 2100 50  0001 C CNN
+	1    8900 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 9450 4950 0    51   Input ~ 0
+GBE0_MDI3-
+Text GLabel 9450 5050 0    51   Input ~ 0
+GBE0_MDI3+
+Text GLabel 9450 5150 0    51   Input ~ 0
+GBE0_LINK100#
+Text GLabel 9450 5250 0    51   Input ~ 0
+GBE0_LINK1000#
+Text GLabel 9450 5350 0    51   Input ~ 0
+GBE0_MDI2-
+Text GLabel 9450 5450 0    51   Input ~ 0
+GBE0_MDI2+
+Text GLabel 9450 5650 0    51   Input ~ 0
+GBE0_MDI1-
+Text GLabel 9450 5750 0    51   Input ~ 0
+GBE0_MDI1+
+Text GLabel 9450 5950 0    51   Input ~ 0
+GBE0_MDI0-
+Text GLabel 9450 6050 0    51   Input ~ 0
+GBE0_MDI0+
+Text GLabel 9450 6150 0    51   Input ~ 0
+GBE0_CTREF(GND)
+Text GLabel 6400 5150 2    51   Input ~ 0
+GBE0_MDI3-
+Text GLabel 5900 5150 0    51   Input ~ 0
+GBE0_MDI3+
+Text GLabel 6400 5450 2    51   Input ~ 0
+GBE0_LINK100#
+Text GLabel 5900 5350 0    51   Input ~ 0
+GBE0_LINK1000#
+Text GLabel 6400 5050 2    51   Input ~ 0
+GBE0_MDI2-
+Text GLabel 5900 5050 0    51   Input ~ 0
+GBE0_MDI2+
+Text GLabel 5900 4950 0    51   Input ~ 0
+GBE0_MDI1-
+Text GLabel 6400 4850 2    51   Input ~ 0
+GBE0_MDI1+
+Text GLabel 5900 4850 0    51   Input ~ 0
+GBE0_MDI0-
+Text GLabel 6400 4750 2    51   Input ~ 0
+GBE0_MDI0+
+Text GLabel 7400 4950 2    51   Input ~ 0
+GBE0_CTREF(GND)
+$Comp
+L GNDREF #PWR037
+U 1 1 5A6D828B
+P 6150 5750
+F 0 "#PWR037" H 6150 5500 50  0001 C CNN
+F 1 "GNDREF" H 6150 5600 50  0000 C CNN
+F 2 "" H 6150 5750 50  0001 C CNN
+F 3 "" H 6150 5750 50  0001 C CNN
+	1    6150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 5A6D8633
+P 5700 5600
+F 0 "R9" V 5780 5600 50  0000 C CNN
+F 1 "330" V 5700 5600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5630 5600 50  0001 C CNN
+F 3 "" H 5700 5600 50  0001 C CNN
+	1    5700 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R10
+U 1 1 5A6D9C5A
+P 6650 5350
+F 0 "R10" V 6730 5350 50  0000 C CNN
+F 1 "330" V 6650 5350 50  0000 C CNN
+F 2 "" V 6580 5350 50  0001 C CNN
+F 3 "" H 6650 5350 50  0001 C CNN
+	1    6650 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDREF #PWR038
+U 1 1 5A6D9E6B
+P 7250 5450
+F 0 "#PWR038" H 7250 5200 50  0001 C CNN
+F 1 "GNDREF" H 7250 5300 50  0000 C CNN
+F 2 "" H 7250 5450 50  0001 C CNN
+F 3 "" H 7250 5450 50  0001 C CNN
+	1    7250 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR039
+U 1 1 5A6DAA22
+P 7300 5050
+F 0 "#PWR039" H 7300 4800 50  0001 C CNN
+F 1 "GNDREF" H 7300 4900 50  0000 C CNN
+F 2 "" H 7300 5050 50  0001 C CNN
+F 3 "" H 7300 5050 50  0001 C CNN
+	1    7300 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR040
+U 1 1 5A6DB372
+P 5150 4750
+F 0 "#PWR040" H 5150 4500 50  0001 C CNN
+F 1 "GNDREF" H 5150 4600 50  0000 C CNN
+F 2 "" H 5150 4750 50  0001 C CNN
+F 3 "" H 5150 4750 50  0001 C CNN
+	1    5150 4750
+	1    0    0    -1  
+$EndComp
+Text Notes 5200 4450 0    60   ~ 0
+Ethernet
+Text Notes 8550 4050 0    60   ~ 0
+mCOMTK1\n
+Text GLabel 1400 1850 2    51   Input ~ 0
+mCOM_12V
+Text GLabel 8700 2000 0    51   Input ~ 0
+GPI0
+Text GLabel 8700 2100 0    51   Input ~ 0
+GPI1
+Text GLabel 8700 2200 0    51   Input ~ 0
+GPI2
+Text GLabel 8700 2300 0    51   Input ~ 0
+GPI3
+Text GLabel 9200 2000 2    51   Input ~ 0
+GPO0
+Text GLabel 9200 2100 2    51   Input ~ 0
+GPO1
+Text GLabel 9200 2200 2    51   Input ~ 0
+GPO2
+Text GLabel 9200 2300 2    51   Input ~ 0
+GPO3
+$Comp
+L Conn_02x03_Odd_Even J10
+U 1 1 5A6E3060
+P 9100 2950
+F 0 "J10" H 9150 3150 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 9150 2750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x03_Pitch2.54mm" H 9100 2950 50  0001 C CNN
+F 3 "" H 9100 2950 50  0001 C CNN
+	1    9100 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 8900 3050 0    60   Input ~ 0
+SPI_CS#
+Text GLabel 8900 2850 0    60   Input ~ 0
+SPI_MISO
+Text GLabel 9400 2950 2    60   Input ~ 0
+SPI_MOSI
+Text GLabel 8900 2950 0    60   Input ~ 0
+SPI_CLK
+Text GLabel 9400 2850 2    60   Input ~ 0
+SPI_POWER
+Text GLabel 9400 3050 2    51   Input ~ 0
+mCOM_GND
+Text GLabel 12450 5650 0    60   Input ~ 0
+SPI_CS#
+Text GLabel 12450 5150 0    60   Input ~ 0
+SPI_MISO
+Text GLabel 12450 5350 0    60   Input ~ 0
+SPI_CLK
+Text GLabel 12450 5450 0    60   Input ~ 0
+SPI_MOSI
+Text Notes 8450 1250 0    60   ~ 0
+I2C\n
+Text Notes 9600 1250 0    60   ~ 0
+Rs232\n
+Text Notes 8500 2750 0    60   ~ 0
+SPI\n
+Text Notes 8450 1900 0    60   ~ 0
+GPIO\n
+Text Notes 9850 1950 0    60   ~ 0
+MISC SHIT
+Text Notes 11600 700  0    60   ~ 0
+PC104\n
+Text Notes 9450 10900 0    60   ~ 0
+Pixie Wranglers:\nPrabodh Jhaveri \nChandler Griscom\n
+Text GLabel 10250 2500 0    51   Input ~ 0
+PWR_OK
+Text GLabel 14200 850  0    51   Input ~ 0
+PWRBTNn
+Text GLabel 14300 1600 0    51   Input ~ 0
+SYS_RESETn
+Text GLabel 14300 2450 0    51   Input ~ 0
+WAKE1n
+$Comp
+L R R11
+U 1 1 5A6E9EDA
+P 14550 850
+F 0 "R11" V 14630 850 50  0000 C CNN
+F 1 "10K" V 14550 850 50  0000 C CNN
+F 2 "" V 14480 850 50  0001 C CNN
+F 3 "" H 14550 850 50  0001 C CNN
+	1    14550 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R12
+U 1 1 5A6EA119
+P 14650 1600
+F 0 "R12" V 14730 1600 50  0000 C CNN
+F 1 "10K" V 14650 1600 50  0000 C CNN
+F 2 "" V 14580 1600 50  0001 C CNN
+F 3 "" H 14650 1600 50  0001 C CNN
+	1    14650 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R13
+U 1 1 5A6EA1A0
+P 14650 2450
+F 0 "R13" V 14730 2450 50  0000 C CNN
+F 1 "10K" V 14650 2450 50  0000 C CNN
+F 2 "" V 14580 2450 50  0001 C CNN
+F 3 "" H 14650 2450 50  0001 C CNN
+	1    14650 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_Push SW2
+U 1 1 5A6EB714
+P 14400 1900
+F 0 "SW2" H 14450 2000 50  0000 L CNN
+F 1 "SW_Push" H 14400 1840 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 14400 2100 50  0001 C CNN
+F 3 "" H 14400 2100 50  0001 C CNN
+	1    14400 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push SW3
+U 1 1 5A6EB78D
+P 14400 2800
+F 0 "SW3" H 14450 2900 50  0000 L CNN
+F 1 "SW_Push" H 14400 2740 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 14400 3000 50  0001 C CNN
+F 3 "" H 14400 3000 50  0001 C CNN
+	1    14400 2800
+	0    -1   -1   0   
+$EndComp
 Connection ~ 3500 5500
 Wire Wire Line
 	3300 5500 3750 5500
@@ -1164,182 +1512,17 @@ Wire Wire Line
 Connection ~ 2450 4500
 Connection ~ 2500 1500
 Connection ~ 4500 8150
-$Comp
-L Conn_02x26_Odd_Even J3
-U 1 1 5A6C2591
-P 11900 2050
-F 0 "J3" H 11950 3350 50  0000 C CNN
-F 1 "Conn_02x26_Odd_Even" H 11950 650 50  0000 C CNN
-F 2 "Carrier-Board:ESQ-126-XX-X-D" H 11900 2050 50  0001 C CNN
-F 3 "" H 11900 2050 50  0001 C CNN
-	1    11900 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x26_Odd_Even J5
-U 1 1 5A6C25B0
-P 12700 2050
-F 0 "J5" H 12750 3350 50  0000 C CNN
-F 1 "Conn_02x26_Odd_Even" H 12750 650 50  0000 C CNN
-F 2 "Carrier-Board:ESQ-126-XX-X-D" H 12700 2050 50  0001 C CNN
-F 3 "" H 12700 2050 50  0001 C CNN
-	1    12700 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x09_Odd_Even J4
-U 1 1 5A6C2649
-P 6100 5150
-F 0 "J4" H 6500 5300 50  0000 C CNN
-F 1 "SI-51009-F" H 6500 4600 50  0000 C CNN
-F 2 "Carrier-Board:SI-51009-F" H 6500 4500 50  0001 C CNN
-F 3 "http://belfuse.com/pdfs/SI-51009-F.pdf" H 6500 4400 50  0001 C CNN
-F 4 "Modular Connectors / Ethernet Connectors RJ45 Connector, 8 Position, 1 port" H 6500 4300 50  0001 C CNN "Description"
-F 5 "RS" H 6500 4200 50  0001 C CNN "Supplier_Name"
-F 6 "Bel-Stewart" H 6500 4000 50  0001 C CNN "Manufacturer_Name"
-F 7 "SI-51009-F" H 6500 3900 50  0001 C CNN "Manufacturer_Part_Number"
-	1    6100 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Barrel_Jack J2
-U 1 1 5A6C7CD3
-P 1000 1350
-F 0 "J2" H 1000 1450 50  0000 C CNN
-F 1 "Conn_01x0" H 1000 1150 50  0000 C CNN
-F 2 "Connectors:Barrel_Jack_CUI_PJ-036AH-SMT" H 1000 1350 50  0001 C CNN
-F 3 "" H 1000 1350 50  0001 C CNN
-	1    1000 1350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1100 1650 1100 1950
 Wire Wire Line
 	1100 1950 1250 1950
 Wire Wire Line
 	1250 1950 1250 1850
-Text GLabel 9800 1400 0    51   Input ~ 0
-mCOM_TX
-Text GLabel 9800 1500 0    51   Input ~ 0
-mCOM_RX
-Text GLabel 9800 1600 0    51   Input ~ 0
-mCOM_GND
-$Comp
-L Conn_01x06_Male J8
-U 1 1 5A6CEF71
-P 10450 2400
-F 0 "J8" H 10450 2700 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 10450 2000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 10450 2400 50  0001 C CNN
-F 3 "" H 10450 2400 50  0001 C CNN
-	1    10450 2400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_01x03_Male J7
-U 1 1 5A6CF26A
-P 10000 1500
-F 0 "J7" H 10000 1700 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 10000 1300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 10000 1500 50  0001 C CNN
-F 3 "" H 10000 1500 50  0001 C CNN
-	1    10000 1500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_01x03_Male J6
-U 1 1 5A6CF317
-P 8950 1500
-F 0 "J6" H 8950 1700 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 8950 1300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 8950 1500 50  0001 C CNN
-F 3 "" H 8950 1500 50  0001 C CNN
-	1    8950 1500
-	-1   0    0    1   
-$EndComp
-Text GLabel 10250 2100 0    51   Input ~ 0
-mCOM_GND
-Text GLabel 10250 2200 0    51   Input ~ 0
-PWRBTNn
-Text GLabel 10250 2300 0    51   Input ~ 0
-SYS_RESETn
-Text GLabel 10250 2400 0    51   Input ~ 0
-WAKE1n
-Text GLabel 10250 2500 0    51   Input ~ 0
-PWR_OK
-Text GLabel 10250 2600 0    51   Input ~ 0
-SLEEPn
-$Comp
-L Conn_02x04_Odd_Even J9
-U 1 1 5A6D35A7
-P 8900 2100
-F 0 "J9" H 8950 2300 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 8950 1800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x04_Pitch2.54mm" H 8900 2100 50  0001 C CNN
-F 3 "" H 8900 2100 50  0001 C CNN
-	1    8900 2100
-	1    0    0    -1  
-$EndComp
 Connection ~ 2950 6250
 Wire Wire Line
 	900  1650 900  1750
 Wire Wire Line
 	1000 1650 900  1650
-Text GLabel 9450 4950 0    51   Input ~ 0
-GBE0_MDI3-
-Text GLabel 9450 5050 0    51   Input ~ 0
-GBE0_MDI3+
-Text GLabel 9450 5150 0    51   Input ~ 0
-GBE0_LINK100#
-Text GLabel 9450 5250 0    51   Input ~ 0
-GBE0_LINK1000#
-Text GLabel 9450 5350 0    51   Input ~ 0
-GBE0_MDI2-
-Text GLabel 9450 5450 0    51   Input ~ 0
-GBE0_MDI2+
-Text GLabel 9450 5650 0    51   Input ~ 0
-GBE0_MDI1-
-Text GLabel 9450 5750 0    51   Input ~ 0
-GBE0_MDI1+
-Text GLabel 9450 5950 0    51   Input ~ 0
-GBE0_MDI0-
-Text GLabel 9450 6050 0    51   Input ~ 0
-GBE0_MDI0+
-Text GLabel 9450 6150 0    51   Input ~ 0
-GBE0_CTREF(GND)
-Text GLabel 6400 5150 2    51   Input ~ 0
-GBE0_MDI3-
-Text GLabel 5900 5150 0    51   Input ~ 0
-GBE0_MDI3+
-Text GLabel 6400 5450 2    51   Input ~ 0
-GBE0_LINK100#
-Text GLabel 5900 5350 0    51   Input ~ 0
-GBE0_LINK1000#
-Text GLabel 6400 5050 2    51   Input ~ 0
-GBE0_MDI2-
-Text GLabel 5900 5050 0    51   Input ~ 0
-GBE0_MDI2+
-Text GLabel 5900 4950 0    51   Input ~ 0
-GBE0_MDI1-
-Text GLabel 6400 4850 2    51   Input ~ 0
-GBE0_MDI1+
-Text GLabel 5900 4850 0    51   Input ~ 0
-GBE0_MDI0-
-Text GLabel 6400 4750 2    51   Input ~ 0
-GBE0_MDI0+
-Text GLabel 7400 4950 2    51   Input ~ 0
-GBE0_CTREF(GND)
-$Comp
-L GNDREF #PWR?
-U 1 1 5A6D828B
-P 6150 5750
-F 0 "#PWR?" H 6150 5500 50  0001 C CNN
-F 1 "GNDREF" H 6150 5600 50  0000 C CNN
-F 2 "" H 6150 5750 50  0001 C CNN
-F 3 "" H 6150 5750 50  0001 C CNN
-	1    6150 5750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5900 5550 5900 5750
 Wire Wire Line
@@ -1347,81 +1530,24 @@ Wire Wire Line
 Wire Wire Line
 	6450 5550 6400 5550
 Connection ~ 6150 5750
-$Comp
-L R R?
-U 1 1 5A6D8633
-P 5700 5600
-F 0 "R?" V 5780 5600 50  0000 C CNN
-F 1 "330" V 5700 5600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 5630 5600 50  0001 C CNN
-F 3 "" H 5700 5600 50  0001 C CNN
-	1    5700 5600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5700 5450 5900 5450
 Connection ~ 5900 5750
 Wire Wire Line
 	5700 5750 6450 5750
-$Comp
-L R R?
-U 1 1 5A6D9C5A
-P 6650 5350
-F 0 "R?" V 6730 5350 50  0000 C CNN
-F 1 "330" V 6650 5350 50  0000 C CNN
-F 2 "" V 6580 5350 50  0001 C CNN
-F 3 "" H 6650 5350 50  0001 C CNN
-	1    6650 5350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6400 5350 6500 5350
 Wire Wire Line
 	6800 5350 7250 5350
 Wire Wire Line
 	7250 5350 7250 5450
-$Comp
-L GNDREF #PWR?
-U 1 1 5A6D9E6B
-P 7250 5450
-F 0 "#PWR?" H 7250 5200 50  0001 C CNN
-F 1 "GNDREF" H 7250 5300 50  0000 C CNN
-F 2 "" H 7250 5450 50  0001 C CNN
-F 3 "" H 7250 5450 50  0001 C CNN
-	1    7250 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7300 4950 7300 5050
-$Comp
-L GNDREF #PWR?
-U 1 1 5A6DAA22
-P 7300 5050
-F 0 "#PWR?" H 7300 4800 50  0001 C CNN
-F 1 "GNDREF" H 7300 4900 50  0000 C CNN
-F 2 "" H 7300 5050 50  0001 C CNN
-F 3 "" H 7300 5050 50  0001 C CNN
-	1    7300 5050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6400 4950 7400 4950
 Connection ~ 7300 4950
-$Comp
-L GNDREF #PWR?
-U 1 1 5A6DB372
-P 5150 4750
-F 0 "#PWR?" H 5150 4500 50  0001 C CNN
-F 1 "GNDREF" H 5150 4600 50  0000 C CNN
-F 2 "" H 5150 4750 50  0001 C CNN
-F 3 "" H 5150 4750 50  0001 C CNN
-	1    5150 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5150 4750 5900 4750
-Text Notes 5200 4450 0    60   ~ 0
-Ethernet
 Wire Bus Line
 	500  7350 8400 7350
 Wire Bus Line
@@ -1432,71 +1558,71 @@ Wire Bus Line
 	16100 3900 4700 3900
 Wire Bus Line
 	8400 500  8400 11150
-Text Notes 8550 4050 0    60   ~ 0
-mCOMTK1\n
-Text GLabel 1400 1850 2    51   Input ~ 0
-mCOM_12V
 Wire Wire Line
 	1250 1850 1400 1850
-Text GLabel 8700 2000 0    51   Input ~ 0
-GPI0
-Text GLabel 8700 2100 0    51   Input ~ 0
-GPI1
-Text GLabel 8700 2200 0    51   Input ~ 0
-GPI2
-Text GLabel 8700 2300 0    51   Input ~ 0
-GPI3
-Text GLabel 9200 2000 2    51   Input ~ 0
-GPO0
-Text GLabel 9200 2100 2    51   Input ~ 0
-GPO1
-Text GLabel 9200 2200 2    51   Input ~ 0
-GPO2
-Text GLabel 9200 2300 2    51   Input ~ 0
-GPO3
+Wire Wire Line
+	14200 850  14400 850 
+Wire Wire Line
+	14500 1600 14300 1600
+Wire Wire Line
+	14300 2450 14500 2450
+Wire Wire Line
+	14400 1700 14400 1600
+Connection ~ 14400 1600
 $Comp
-L Conn_02x03_Odd_Even J?
-U 1 1 5A6E3060
-P 9100 2950
-F 0 "J?" H 9150 3150 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 9150 2750 50  0000 C CNN
-F 2 "" H 9100 2950 50  0001 C CNN
-F 3 "" H 9100 2950 50  0001 C CNN
-	1    9100 2950
+L SW_Push SW1
+U 1 1 5A6EB695
+P 14350 1100
+F 0 "SW1" H 14400 1200 50  0000 L CNN
+F 1 "SW_Push" H 14350 1040 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 14350 1300 50  0001 C CNN
+F 3 "" H 14350 1300 50  0001 C CNN
+	1    14350 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14350 900  14350 850 
+Connection ~ 14350 850 
+Wire Wire Line
+	14400 2600 14400 2450
+Connection ~ 14400 2450
+$Comp
+L GNDREF #PWR041
+U 1 1 5A6EC603
+P 14350 1300
+F 0 "#PWR041" H 14350 1050 50  0001 C CNN
+F 1 "GNDREF" H 14350 1150 50  0000 C CNN
+F 2 "" H 14350 1300 50  0001 C CNN
+F 3 "" H 14350 1300 50  0001 C CNN
+	1    14350 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 8900 3050 0    60   Input ~ 0
-SPI_CS#
-Text GLabel 8900 2850 0    60   Input ~ 0
-SPI_MISO
-Text GLabel 9400 2950 2    60   Input ~ 0
-SPI_MOSI
-Text GLabel 8900 2950 0    60   Input ~ 0
-SPI_CLK
-Text GLabel 9400 2850 2    60   Input ~ 0
-SPI_POWER
-Text GLabel 9400 3050 2    51   Input ~ 0
-mCOM_GND
-Text GLabel 12450 5650 0    60   Input ~ 0
-SPI_CS#
-Text GLabel 12450 5150 0    60   Input ~ 0
-SPI_MISO
-Text GLabel 12450 5350 0    60   Input ~ 0
-SPI_CLK
-Text GLabel 12450 5450 0    60   Input ~ 0
-SPI_MOSI
-Text Notes 8450 1250 0    60   ~ 0
-I2C\n
-Text Notes 9600 1250 0    60   ~ 0
-Rs232\n
-Text Notes 8500 2750 0    60   ~ 0
-SPI\n
-Text Notes 8450 1900 0    60   ~ 0
-GPIO\n
-Text Notes 9850 1950 0    60   ~ 0
-MISC SHIT
-Text Notes 11600 700  0    60   ~ 0
-PC104\n
-Text Notes 9450 10900 0    60   ~ 0
-Pixie Wranglers:\nPrabodh Jhaveri \nChandler Griscom\n
+$Comp
+L GNDREF #PWR042
+U 1 1 5A6EC92F
+P 14400 2100
+F 0 "#PWR042" H 14400 1850 50  0001 C CNN
+F 1 "GNDREF" H 14400 1950 50  0000 C CNN
+F 2 "" H 14400 2100 50  0001 C CNN
+F 3 "" H 14400 2100 50  0001 C CNN
+	1    14400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR043
+U 1 1 5A6ECB43
+P 14400 3000
+F 0 "#PWR043" H 14400 2750 50  0001 C CNN
+F 1 "GNDREF" H 14400 2850 50  0000 C CNN
+F 2 "" H 14400 3000 50  0001 C CNN
+F 3 "" H 14400 3000 50  0001 C CNN
+	1    14400 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 14700 850  2    51   Input ~ 0
+mCOM_5V_SBY
+Text GLabel 14800 1600 2    51   Input ~ 0
+mCOM_5V_SBY
+Text GLabel 14800 2450 2    51   Input ~ 0
+mCOM_5V_SBY
 $EndSCHEMATC
