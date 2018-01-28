@@ -591,23 +591,23 @@ $EndComp
 $Comp
 L +12V #PWR019
 U 1 1 5A0413FE
-P 1700 1950
-F 0 "#PWR019" H 1700 1800 50  0001 C CNN
-F 1 "+12V" H 1700 2090 50  0000 C CNN
-F 2 "" H 1700 1950 50  0001 C CNN
-F 3 "" H 1700 1950 50  0001 C CNN
-	1    1700 1950
+P 1250 1850
+F 0 "#PWR019" H 1250 1700 50  0001 C CNN
+F 1 "+12V" H 1250 1990 50  0000 C CNN
+F 2 "" H 1250 1850 50  0001 C CNN
+F 3 "" H 1250 1850 50  0001 C CNN
+	1    1250 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDREF #PWR020
 U 1 1 5A04143A
-P 1350 1850
-F 0 "#PWR020" H 1350 1600 50  0001 C CNN
-F 1 "GNDREF" H 1350 1700 50  0000 C CNN
-F 2 "" H 1350 1850 50  0001 C CNN
-F 3 "" H 1350 1850 50  0001 C CNN
-	1    1350 1850
+P 900 1750
+F 0 "#PWR020" H 900 1500 50  0001 C CNN
+F 1 "GNDREF" H 900 1600 50  0000 C CNN
+F 2 "" H 900 1750 50  0001 C CNN
+F 3 "" H 900 1750 50  0001 C CNN
+	1    900  1750
 	1    0    0    -1  
 $EndComp
 Text GLabel 3700 5950 2    60   Input ~ 0
@@ -631,7 +631,7 @@ Text GLabel 8750 1400 0    51   Input ~ 0
 I2C_CK
 Text GLabel 8750 1500 0    51   Input ~ 0
 I2C_DAT
-Text Notes 8300 1100 0    118  ~ 0
+Text Notes 8450 1050 0    118  ~ 0
 Break out\n
 $Comp
 L LED D6
@@ -977,12 +977,12 @@ $EndComp
 $Comp
 L GNDREF #PWR036
 U 1 1 5A0B68CF
-P 8750 1600
-F 0 "#PWR036" H 8750 1350 50  0001 C CNN
-F 1 "GNDREF" H 8750 1450 50  0000 C CNN
-F 2 "" H 8750 1600 50  0001 C CNN
-F 3 "" H 8750 1600 50  0001 C CNN
-	1    8750 1600
+P 8850 1600
+F 0 "#PWR036" H 8850 1350 50  0001 C CNN
+F 1 "GNDREF" H 8850 1450 50  0000 C CNN
+F 2 "" H 8850 1600 50  0001 C CNN
+F 3 "" H 8850 1600 50  0001 C CNN
+	1    8850 1600
 	1    0    0    -1  
 $EndComp
 Connection ~ 3500 5500
@@ -1204,20 +1204,20 @@ $EndComp
 $Comp
 L Barrel_Jack J2
 U 1 1 5A6C7CD3
-P 1450 1450
-F 0 "J2" H 1450 1550 50  0000 C CNN
-F 1 "Conn_01x0" H 1450 1250 50  0000 C CNN
-F 2 "Connectors:Barrel_Jack_CUI_PJ-036AH-SMT" H 1450 1450 50  0001 C CNN
-F 3 "" H 1450 1450 50  0001 C CNN
-	1    1450 1450
+P 1000 1350
+F 0 "J2" H 1000 1450 50  0000 C CNN
+F 1 "Conn_01x0" H 1000 1150 50  0000 C CNN
+F 2 "Connectors:Barrel_Jack_CUI_PJ-036AH-SMT" H 1000 1350 50  0001 C CNN
+F 3 "" H 1000 1350 50  0001 C CNN
+	1    1000 1350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1550 1750 1550 2050
+	1100 1650 1100 1950
 Wire Wire Line
-	1550 2050 1700 2050
+	1100 1950 1250 1950
 Wire Wire Line
-	1700 2050 1700 1950
+	1250 1950 1250 1850
 Text GLabel 9800 1400 0    51   Input ~ 0
 mCOM_TX
 Text GLabel 9800 1500 0    51   Input ~ 0
@@ -1227,12 +1227,12 @@ mCOM_GND
 $Comp
 L Conn_01x06_Male J8
 U 1 1 5A6CEF71
-P 10150 2350
-F 0 "J8" H 10150 2650 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 10150 1950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 10150 2350 50  0001 C CNN
-F 3 "" H 10150 2350 50  0001 C CNN
-	1    10150 2350
+P 10450 2400
+F 0 "J8" H 10450 2700 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 10450 2000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 10450 2400 50  0001 C CNN
+F 3 "" H 10450 2400 50  0001 C CNN
+	1    10450 2400
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1257,34 +1257,34 @@ F 3 "" H 8950 1500 50  0001 C CNN
 	1    8950 1500
 	-1   0    0    1   
 $EndComp
-Text GLabel 9950 2050 0    51   Input ~ 0
+Text GLabel 10250 2100 0    51   Input ~ 0
 mCOM_GND
-Text GLabel 9950 2150 0    51   Input ~ 0
+Text GLabel 10250 2200 0    51   Input ~ 0
 PWRBTNn
-Text GLabel 9950 2250 0    51   Input ~ 0
+Text GLabel 10250 2300 0    51   Input ~ 0
 SYS_RESETn
-Text GLabel 9950 2350 0    51   Input ~ 0
+Text GLabel 10250 2400 0    51   Input ~ 0
 WAKE1n
-Text GLabel 9950 2450 0    51   Input ~ 0
+Text GLabel 10250 2500 0    51   Input ~ 0
 PWR_OK
-Text GLabel 9950 2550 0    51   Input ~ 0
+Text GLabel 10250 2600 0    51   Input ~ 0
 SLEEPn
 $Comp
 L Conn_02x04_Odd_Even J9
 U 1 1 5A6D35A7
-P 8800 2100
-F 0 "J9" H 8850 2300 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 8850 1800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x04_Pitch2.54mm" H 8800 2100 50  0001 C CNN
-F 3 "" H 8800 2100 50  0001 C CNN
-	1    8800 2100
+P 8900 2100
+F 0 "J9" H 8950 2300 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 8950 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x04_Pitch2.54mm" H 8900 2100 50  0001 C CNN
+F 3 "" H 8900 2100 50  0001 C CNN
+	1    8900 2100
 	1    0    0    -1  
 $EndComp
 Connection ~ 2950 6250
 Wire Wire Line
-	1350 1750 1350 1850
+	900  1650 900  1750
 Wire Wire Line
-	1450 1750 1350 1750
+	1000 1650 900  1650
 Text GLabel 9450 4950 0    51   Input ~ 0
 GBE0_MDI3-
 Text GLabel 9450 5050 0    51   Input ~ 0
@@ -1434,4 +1434,67 @@ Wire Bus Line
 	8400 500  8400 11150
 Text Notes 8550 4050 0    60   ~ 0
 mCOMTK1\n
+Text GLabel 1400 1850 2    51   Input ~ 0
+mCOM_12V
+Wire Wire Line
+	1250 1850 1400 1850
+Text GLabel 8700 2000 0    51   Input ~ 0
+GPI0
+Text GLabel 8700 2100 0    51   Input ~ 0
+GPI1
+Text GLabel 8700 2200 0    51   Input ~ 0
+GPI2
+Text GLabel 8700 2300 0    51   Input ~ 0
+GPI3
+Text GLabel 9200 2000 2    51   Input ~ 0
+GPO0
+Text GLabel 9200 2100 2    51   Input ~ 0
+GPO1
+Text GLabel 9200 2200 2    51   Input ~ 0
+GPO2
+Text GLabel 9200 2300 2    51   Input ~ 0
+GPO3
+$Comp
+L Conn_02x03_Odd_Even J?
+U 1 1 5A6E3060
+P 9100 2950
+F 0 "J?" H 9150 3150 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 9150 2750 50  0000 C CNN
+F 2 "" H 9100 2950 50  0001 C CNN
+F 3 "" H 9100 2950 50  0001 C CNN
+	1    9100 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 8900 3050 0    60   Input ~ 0
+SPI_CS#
+Text GLabel 8900 2850 0    60   Input ~ 0
+SPI_MISO
+Text GLabel 9400 2950 2    60   Input ~ 0
+SPI_MOSI
+Text GLabel 8900 2950 0    60   Input ~ 0
+SPI_CLK
+Text GLabel 9400 2850 2    60   Input ~ 0
+SPI_POWER
+Text GLabel 9400 3050 2    51   Input ~ 0
+mCOM_GND
+Text GLabel 12450 5650 0    60   Input ~ 0
+SPI_CS#
+Text GLabel 12450 5150 0    60   Input ~ 0
+SPI_MISO
+Text GLabel 12450 5350 0    60   Input ~ 0
+SPI_CLK
+Text GLabel 12450 5450 0    60   Input ~ 0
+SPI_MOSI
+Text Notes 8450 1250 0    60   ~ 0
+I2C\n
+Text Notes 9600 1250 0    60   ~ 0
+Rs232\n
+Text Notes 8500 2750 0    60   ~ 0
+SPI\n
+Text Notes 8450 1900 0    60   ~ 0
+GPIO\n
+Text Notes 9850 1950 0    60   ~ 0
+MISC SHIT
+Text Notes 11600 700  0    60   ~ 0
+PC104\n
 $EndSCHEMATC
