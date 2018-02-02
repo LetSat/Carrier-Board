@@ -1625,4 +1625,9 @@ Text GLabel 14800 1600 2    51   Input ~ 0
 mCOM_5V_SBY
 Text GLabel 14800 2450 2    51   Input ~ 0
 mCOM_5V_SBY
+Text GLabel 3550 6200 3    60   Input ~ 0
+SPI_POWER
+Connection ~ 3550 5950
+Wire Wire Line
+	3550 5950 3550 6200
 $EndSCHEMATC
