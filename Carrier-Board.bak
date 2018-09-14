@@ -34,6 +34,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:Carrier-Board
 LIBS:SI-51009-F
+LIBS:Carrier-Board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
